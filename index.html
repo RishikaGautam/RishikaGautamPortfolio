@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishika Gautam | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">RG</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="btn-nav">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">Computer Science & Math @ NYU</p>
+        <h1>Hi, I'm <span class="accent">Rishika.</span></h1>
+        <p class="subtitle">
+          I build AI-powered training tools, data pipelines, and web apps. I’ve worked at Mentivista (AI/EdTech),
+          OptumInsight, and NYU Courant on AI-driven financial advisory systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-secondary">Get in touch</a>
+        </div>
+        <div class="hero-links">
+          <a href="mailto:rg4929@nyu.edu">rg4929@nyu.edu</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/RishikaGautam" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span>•</span>
+          <a href="https://github.com/RishikaGautam" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="hero-card-title">Currently</p>
+        <ul>
+          <li><strong>OSIRIS Lab Member</strong> – NYU Cybersecurity</li>
+          <li><strong>Founding Engineer</strong> – Mentivista</li>
+          <li><strong>B.A. Computer Science & Math</strong> – NYU</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I'm an NYU student (CS + Math, Business minor) interested in AI engineering, data systems, and security.
+        I like taking fuzzy, real-world workflows—onboarding, training, reporting—and turning them into repeatable
+        products with Python, SQL, and web tech. I’ve built RAG pipelines, multi-page web apps, and ETL/reporting
+        flows for underwriting teams. :contentReference[oaicite:1]{index=1}
+      </p>
+      <div class="about-grid">
+        <div>
+          <h3>Education</h3>
+          <p><strong>New York University</strong>, New York, NY</p>
+          <p>B.A. in Computer Science & Mathematics, Minor in Business Studies</p>
+          <p class="muted">Aug 2024 – May 2028</p>
+          <p class="muted">
+            Coursework: Data Structures, Computer Systems Organization, Basic Algorithms, Discrete Mathematics,
+            Linear Algebra, Calculus III, Math for Economics, Micro/Macro, Financial Accounting
+          </p>
+        </div>
+        <div>
+          <h3>What I like building</h3>
+          <ul class="bullets">
+            <li>AI/chatbot training experiences for staff</li>
+            <li>Secure, company-specific content libraries</li>
+            <li>Data dashboards and automations</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="ti-header">
+            <h3>OSIRIS Lab Member</h3>
+            <span class="ti-meta">NYU Center for Cyber Security • Brooklyn, NY • Sep 2025 – Present</span>
+          </div>
+          <ul>
+            <li>Designing and creating CTF challenges.</li>
+            <li>Supporting team for CTFTime competitions.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="ti-header">
+            <h3>AI & Software Development Founding Engineer</h3>
+            <span class="ti-meta">Mentivista (EdTech Startup, NYU Leslie eLab Launchpad Cohort) • June 2025 – Present</span>
+          </div>
+          <ul>
+            <li>
+              Developed an AI-powered voice training platform for medspas/salons/wellness businesses so staff can
+              practice client interactions using natural language AI.
+            </li>
+            <li>
+              Built RAG pipelines on industry manuals (LangChain) to create domain-specific agents for customer
+              service and sales training.
+            </li>
+            <li>
+              Reduced onboarding time by ~40% with automated, interactive voice role-play and real-time feedback.
+            </li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="ti-header">
+            <h3>Data Engineer Intern</h3>
+            <span class="ti-meta">OptumInsight at UnitedHealth Group • Boston, MA • June 2025 – Aug 2025</span>
+          </div>
+          <ul>
+            <li>Built a centralized SQL database to consolidate underwriting data from multiple sources.</li>
+            <li>Developed ETL pipelines in Python/SQL and integrated with Power BI for real-time reporting.</li>
+            <li>Cut report turnaround time by 50% by automating data preparation.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="ti-header">
+            <h3>Undergraduate Research Assistant</h3>
+            <span class="ti-meta">NYU Courant Institute • Aug 2024 – Present</span>
+          </div>
+          <ul>
+            <li>Research with Prof. Dennis Shasha on AI-driven financial advisory systems.</li>
+            <li>Built Python data pipelines for sector-level analytics and automated stock market data extraction.</li>
+            <li>Developed dynamic multi-page web app (HTML/CSS/JS) integrating backend APIs for AI insights.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>SemFlow</h3>
+          <p class="muted">JavaScript, HTML/CSS, Python • Sep 2025</p>
+          <p>
+            Weekly planner that ingests course syllabi, class spreadsheets, and documentation to automatically
+            generate an optimal semester plan aligned with extracurricular commitments.
+          </p>
+          <ul>
+            <li>Parsing & normalization in Python to extract deadlines/meeting times.</li>
+            <li>Responsive web UI to display structured schedule.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Tanasense</h3>
+          <p class="muted">Node.js, React, Arduino IDE • Jan 2025 – May 2025</p>
+          <p>
+            Gamified CPR training simulation with a physical device that captures compression accuracy, depth, and
+            rhythm for realistic feedback.
+          </p>
+          <ul>
+            <li>Integrated hardware sensors via Arduino.</li>
+            <li>Finalist in NYU Tandon InnoVention Competition; received $500 in funding.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>AI Training Platform (Mentivista)</h3>
+          <p class="muted">FastAPI, LangChain, Google Cloud STT</p>
+          <p>
+            Domain-specific conversational agents that turn internal manuals into interactive role-play for staff
+            training.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Languages</h3>
+          <p>Java, Python, C/C++, SQL (MySQL), JavaScript, HTML/CSS</p>
+        </div>
+        <div>
+          <h3>Developer Tools</h3>
+          <p>Git, VS Code, Visual Studio, Eclipse, CLion, Google Colab, Figma, React</p>
+        </div>
+        <div>
+          <h3>Focus Areas</h3>
+          <p>AI/RAG systems, data pipelines, web apps, security/CTF</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <p>If you want to talk about AI training products, data engineering, or internships, reach out 👇</p>
+      <div class="contact-box">
+        <p><strong>Email:</strong> <a href="mailto:rg4929@nyu.edu">rg4929@nyu.edu</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/RishikaGautam" target="_blank" rel="noreferrer">linkedin.com/in/RishikaGautam</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/RishikaGautam" target="_blank" rel="noreferrer">github.com/RishikaGautam</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rishika Gautam. Built with ♥.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
